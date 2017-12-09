@@ -3,4 +3,6 @@ var playlist = {
   eason : "chan"
 }
 
-function updatePlaylist
+function updatePlaylist(obj , name , song){
+  return obj.name = song;
+}
