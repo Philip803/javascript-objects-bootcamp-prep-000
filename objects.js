@@ -4,5 +4,11 @@ var playlist = {
 }
 
 function updatePlaylist(obj , name , song){
-  return obj.name = song;
+  obj.name = song;
+  return obj;
+}
+
+function removeFromPlaylist(){
+  
+  
 }
